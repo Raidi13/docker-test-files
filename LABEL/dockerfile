@@ -1,5 +1,5 @@
 FROM almalinux:9
 LABEL author="raidi kartheek"
-      compny ="joindevops"
+      company="joindevops"
       topic="dockerfiles"
       duration="2hrs"
