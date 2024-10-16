@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 RUN rm -rf /usr/share/nginx/html/index.html
 ADD  /usr/share/nginx/html/index.html    
 CMD ["nginx", "-g", "daemon off;"]
-# add some link to get output in usr/share/nginx/html/index.html
+# it can get files from internet and store usr/share/nginx/html/index.html
