@@ -2,9 +2,8 @@ ARG version
 FROM almalinux:${version}:-9}
 ARG course="DevOps with AWS" \
     duration="120hrs" 
+#access ARG values inside container.
+#set arg values to env variables.
 env duration=$duration 
 RUN echo "course:$course,duration:$duration" 
 CMD ["sleep","100"]
-
-#access ARG values inside container.
-#set arg values to env variables.
