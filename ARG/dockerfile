@@ -4,6 +4,7 @@ ARG course="DevOps with AWS" \
     duration="120hrs" 
 #access ARG values inside container.
 #set arg values to env variables.
-env duration=$duration 
+ENV duration=$duration 
 RUN echo "course:$course,duration:$duration" 
 CMD ["sleep","100"]
+
