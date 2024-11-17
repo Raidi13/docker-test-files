@@ -3,3 +3,7 @@ LABEL author="raidi kartheek" \
       company="joindevops" \       
       topic="dockerfiles" \
       duration="2hrs"
+
+# TO filter the labels 
+#docker image -f label=company=joindevops 
+# this will filter the labels
