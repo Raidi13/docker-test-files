@@ -1,5 +1,8 @@
-FROM almalinux:9
-#CMD ["ping","google.com"]
-#cmd can be overridden at run time
-CMD ["google.com"]
-ENTRYPOINT ["ping"]
+# FROM almalinux:9
+# #CMD ["ping","google.com"]
+# #cmd can be overridden at run time
+# CMD ["google.com"]
+# ENTRYPOINT ["ping"]
+
+FROM  alamalinux:9
+CMD ["ping" , "google.com"]
