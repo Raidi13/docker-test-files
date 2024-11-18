@@ -5,5 +5,5 @@ ARG name="raidi" \
 #access ARG values inside container.
 #set arg values to env variables.
 ENV duration=$duration 
-RUN echo "name:$name,interview:$interview_on" 
+RUN echo "name: $name,interview: $interview_on,version: $version" 
 CMD ["sleep","100"]
