@@ -11,5 +11,5 @@
 FROM  almalinux:9
 ARG name="raidi" \
     course="devops"
-RUN echo "course:$course,name:$name
+RUN echo "course:$course,name:$name"
 CMD ["sleep","100"] 
