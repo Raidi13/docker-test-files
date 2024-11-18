@@ -9,7 +9,7 @@
 # CMD ["sleep","100"]
 #ARG version
 FROM  almalinux:9
-ARG name = "raidi" \
-    course = "devops"
+ARG name="raidi" \
+    course="devops"
 RUN echo "course: $course, name:$name
 CMD ["sleep","100"] 
