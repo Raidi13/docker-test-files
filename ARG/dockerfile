@@ -10,6 +10,6 @@
 #ARG version
 FROM  almalinux:9
 ARG name = "raidi"\
-    course ="devops"
+    course = "devops"
 RUN echo "course:$course,name:$name
 CMD ["sleep","100"] 
