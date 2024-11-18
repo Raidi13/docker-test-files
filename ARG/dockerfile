@@ -7,8 +7,8 @@
 # ENV duration=$duration 
 # RUN echo "course:$course,duration:$duration" 
 # CMD ["sleep","100"]
-ARG version
-FROM  almalinux:${version}:-9}
+#ARG version
+FROM  almalinux:9
 ARG name = "raidi"\
     course ="devops"
 RUN echo "course:$course,name:$name
