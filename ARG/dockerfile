@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${version}:-9}
+FROM almalinux:${version:-9}
 ARG name="raidi" \
     interview_on="devops" 
 #access ARG values inside container.
