@@ -1,7 +1,7 @@
 FROM almalinux:9
 LABEL author="raidi kartheek" \
       company="joindevops" \       
-      topic="dockerfiles" \
+      topic="docker" \
       duration="2hrs"
 
 # TO filter the labels 
