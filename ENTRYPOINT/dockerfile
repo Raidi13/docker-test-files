@@ -2,5 +2,6 @@ FROM almalinux:9
 #CMD ["ping","google.com"]
 # #cmd can be overridden at run time
 # ping google.com to ping the internet is working or not
+# docker ps -a --no-trunc
  CMD ["google.com"]
  ENTRYPOINT ["ping"]
